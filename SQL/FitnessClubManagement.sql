@@ -66,3 +66,11 @@ create table equipment (
 	eStatus			VARCHAR(255)		Not Null,
     FOREIGN KEY(room_id) REFERENCES rooms
 );
+
+create table admin (
+	admin_id	    SERIAL	PRIMARY KEY,
+	first_name		VARCHAR(255)		Not Null,
+	last_name		VARCHAR(255)		Not Null,
+	email		    VARCHAR(255)		Not Null		Unique,
+    password_key 	VARCHAR(255)		Not Null
+);
