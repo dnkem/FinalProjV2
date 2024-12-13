@@ -1,5 +1,5 @@
 # FinalProjV2
-Danielle Nkem Ebende - 101218592
+Danielle 
 
 Functionlity
 - Member stuff 1, 2, 3,
